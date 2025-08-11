@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.goal-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.goal-form input[type="text"],
+.goal-form input[type="date"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.goal-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.goal-item {
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  position: relative;
+}
+
+.goal-item.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.goal-item button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.goal-list {
+  margin-top: 20px;
+}
